@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Raju Peethala | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+
+    <header>
+        <nav>
+            <div class="logo">Jaya Raju</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm <span class="name">Jaya Raju Peethala</span></h1>
+        <h2 class="typing-text">Aspiring Data Scientist</h2>
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science and Engineering student specializing in Data Science. Passionate about Machine Learning and Data Analysis.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="https://pluspng.com/img-png/python-logo-png-big-image-png-2400.png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/java-logo-png-transparent.png" alt="Java">
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <img src="https://clipartcraft.com/images/html5-logo-png-transparent-5.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/css-3-logo-png-transparent.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="https://umangsoftware.com/wp-content/uploads/2020/05/SQL-logo.png" alt="SQL">
+                <p>SQL</p>
+            </div>
+            <div class="skill">
+                <img src="https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png" alt="MongoDB">
+                <p>MongoDB</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-card">
+                    <div class="front">
+                        <h3>Data Analysis Automation</h3>
+                    </div>
+                    <div class="back">
+                        <p>Automated data processing using Alteryx tools.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-card">
+                    <div class="front">
+                        <h3>Machine Learning Models</h3>
+                    </div>
+                    <div class="back">
+                        <p>Built ML models using TensorFlow & Scikit-learn.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jaya Raju Peethala. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
